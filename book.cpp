@@ -7,7 +7,7 @@ public:
         price = 250;
     }
 
-    void show() {
+    void show() {   //function to print the book price
         cout << "Book price: " << price;
     }
 };

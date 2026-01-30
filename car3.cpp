@@ -7,7 +7,7 @@ string brand;
 int price;
 int seat;
 string model;
-Cars c1(string b,string m,int s,int p)
+Cars (string b,string m,int s,int p)
 {
     brand = b;
     model = m;
@@ -15,13 +15,7 @@ Cars c1(string b,string m,int s,int p)
     price =p;
 
 }
-Cars c2(string b,string m,int s,int p)
-{
-   brand = b;
-    model = m;
-    seat = s;
-    price =p;
-}
+
 };
 int main()
 {
